@@ -1,0 +1,66 @@
+@charset "UTF-8";
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none; color: #000;}
+body { font-family: 'Nanum Pen Script'; }
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+/* =================================================================== */
+.page1{background-color:#fcecec;height: 100vh;padding: 2%; box-sizing: border-box;}
+.page1 .big-bg{background: url(../img/big-bg.gif); height: 100%;}
+.page1 .text{font-size: 40px;}
+.page1 .text p:first-child{position: absolute; top: 38%; left: 34%; letter-spacing: 32px;}
+.page1 .text p:last-child{position: absolute; top: 59%; left: 61%; letter-spacing: 26px;}
+/* =============================================================================================================*/
+.section1{position: relative;width: 50%; height: 100%; float:left;}
+.section2{position: relative;width: 50%; height: 100%; float: right;}
+/* .swiper-container {width: 100%; height: 100%;} */
+.page2{width: 100%; height: 100vh; box-sizing: border-box;}
+.page2 .gnb-nav{background-color: #ffa6a6; height: 70px; width: 100%;}
+.page2 .gnb-nav ul{width: 100%;}
+.page2 .gnb-nav ul li{float: right; padding: 22px; font-size: 19px; margin-right: 38px;}
+.page2 .same > p{margin-top: 30px; text-align: center; font-size: 29px; letter-spacing: 20px;}
+.page2 .same .link{height: 300px; padding-top: 64px; box-sizing: border-box; }
+.page2 .same .link .circle{position: relative;overflow: hidden;}
+.page2 .same .link .circle a > img{width: 50%;margin-left: 25%;}
+.page2 .same .text_area{padding: 95px 48px; height: 56vh; box-sizing: border-box;}
+.page2 .same .text_area .small-bg{background:url(../img/small-bg.gif); height: 100%; padding-left: 43px; padding-top: 13px;}
+.page2 .same .text_area .text_color{}
+.page2 .same .text_area .text_color > p{display: inline-block; font-size: 25px; letter-spacing: 16px; margin-right: 18px;}
+.page2 .same .text_area .text_color span{
+  width: 20px; height: 20px;
+  border-radius: 50%; background-color: blue;
+  box-sizing: border-box;
+  padding: 0 5px; display: inline-block;
+  margin-left: 10px;
+}
+.page2 .same .text_area dl{font-size: 25px; letter-spacing: 18px;}
+.page2 .same .text_area dt{display: inline-block; float: left;}
+.page2 .same .text_area dd{margin:18px 0;}
+.page2 .same .text_area dd:last-child{margin: -8px 0; line-height: 2; letter-spacing: 15px;}
+/*=========================================================  */
+.page3{height: 100vh;}
+.page3 .gnb-nav{background-color: #ffa6a6; height: 70px; width: 100%;}
+.page3 .gnb-nav ul{width: 100%;}
+.page3 .gnb-nav ul li{float: right; padding: 22px; font-size: 19px; margin-right: 38px;}
+.page3 .section1{position: relative;width: 50%; height: 100%; float:left; background-color: #fcecec; padding: 20px 50px; box-sizing: border-box;}
+.page3 .info{}
+.page3 .info img{width: 138px; margin-right: 30px; height: 184px;}
+.page3 .info p{display: inline-block; position: absolute; top: 0; font-size: 12px; letter-spacing: 12px;}
+.page3 .skill{margin: 67px auto;}
+.page3 .skill ul li{margin:20px 0;}
+.page3 .skill ul li span{display: inline-block; width: 20%;}
+.page3 .skill .progress{display: inline-block; width: 80%; height: 30px; background-color: #fff;}
+.page3 .skill .progress .progress_bar{width: 0%; transition: none;}
+.page3 .keyword{}
+.page3 .keyword ul li{float: left; border: 1px solid #000; box-sizing: border-box; padding-bottom: 68px;}
+.page3 .keyword ul li i{font-size: 60px; text-align: center; margin: 22px auto; display: block;}
+.page3 .keyword ul li p{text-align: center; font-size: 23px; font-weight: bold;}
+.page3 .keyword ul li span{display: none; text-align: center; margin-top: 10px;}
+/* .page3 >.section2{position: relative; width: 50%;  float: right; padding: 2%; box-sizing: border-box;} */
+.page3 .big-bg2{height: 92vh; padding: 2%; box-sizing: border-box;}
+.page3 .big-bg2 .motto{background: url(../img/big-bg2.gif); height: 100%;}
+.test{display: none; height: 100vh; background-color: red;}
+@media (max-width:1500px){
+  .page2 .same .link{height: 220px;}
+  .page2 .same .text_area{padding: 36px 48px;}
+}
