@@ -27,7 +27,7 @@ h2,h3,h4{font-size: 29px; letter-spacing: 20px; position: absolute; left: 50%; t
 .page1 .text h1{
   position: absolute; top: 39%; left: 50%; transform: translateX(-50%); letter-spacing: 32px;
   border-right: .1em solid;
-	width: 22ch; /* # of chars */
+	width: 23ch; /* # of chars */
 	white-space: nowrap;
 	overflow: hidden;
 	animation: typing 2s steps(12, end), /* # of steps = # of chars */
@@ -215,7 +215,7 @@ h2,h3,h4{font-size: 29px; letter-spacing: 20px; position: absolute; left: 50%; t
   nav ul li a{font-size: 11px; color: #7f5899;}
   h2,h3,h4{font-size: 20px;letter-spacing: 10px;}
   .page1 .text{font-size: 12px;}
-  .page1 .text h1{position: absolute; top: 40%; left: 50%;transform: translate(-50%,-50%); letter-spacing: 8px; width: 21ch;}
+  .page1 .text h1{position: absolute; top: 40%; left: 50%;transform: translate(-50%,-50%); letter-spacing: 8px; width: 22ch;}
   .page1 .text p:last-child{position: absolute; top: 45%; left: 50%;transform: translate(-50%,-50%); letter-spacing: 8px;}
   .page2 .row{width: 240px; height: 230px;}
   .page2 .text{width: 60%; bottom: 14%; left: 50%;}
